@@ -28,6 +28,10 @@ export function imgSrc(n: number): string {
 // All available numbered image indices
 export const allImageNums = Object.keys(ext).map(Number);
 
-// Subset ranges
-export const clientLogoNums = allImageNums.filter((n) => n <= 28);
+// Only the actual brand logo images (confirmed by inspection)
+// 9=H&M, 10=ZARA, 11=Levi's, 12=NUDE PROJECT, 13=GetCocky,
+// 14=SPARK, 15=MANGO, 16=RJ Clothing, 17=Seven7
+export const clientLogoNums = [9, 10, 11, 12, 13, 14, 15, 16, 17];
+
+// Showroom gallery images
 export const galleryNums = allImageNums.filter((n) => n >= 29 && n <= 40);
