@@ -80,10 +80,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
+      { url: "/images/nmz-logo.webp", type: "image/webp" },
       { url: "/favicon.ico", sizes: "any" },
-      { url: "/icon.svg", type: "image/svg+xml" },
     ],
-    apple: "/apple-touch-icon.png",
+    apple: { url: "/images/nmz-logo.webp", type: "image/webp" },
+    shortcut: "/images/nmz-logo.webp",
   },
   category: "business",
 };
