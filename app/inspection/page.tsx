@@ -39,7 +39,7 @@ export default function InspectionPage() {
       <PageHeader
         title="Inspection Services"
         subtitle="Quality assurance is not an afterthought — it's built into every stage of our sourcing process."
-        bgImage="/images/mt-sample-background.jpg"
+        bgImage="/images/19.jpg"
         breadcrumb="Quality Control"
       />
 

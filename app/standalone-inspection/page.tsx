@@ -84,7 +84,7 @@ export default function StandaloneInspectionPage() {
       <PageHeader
         title="Standalone Inspection"
         subtitle="Expert quality control for brands that manage their own sourcing — the same rigorous standards, on your terms."
-        bgImage="/images/mt-sample-background.jpg"
+        bgImage="/images/20.webp"
         breadcrumb="Quality Control"
       />
 
