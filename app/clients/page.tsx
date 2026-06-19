@@ -25,18 +25,32 @@ export default function ClientsPage() {
       />
 
       {/* Stats */}
-      <section className="py-16 bg-[#384E8E]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-20 overflow-hidden bg-[#060e24]">
+        <div className="stats-orb-1 absolute -top-16 -left-16 w-72 h-72 rounded-full opacity-30"
+             style={{ background: "radial-gradient(circle, #384E8E 0%, transparent 70%)" }} />
+        <div className="stats-orb-2 absolute -bottom-20 -right-20 w-96 h-96 rounded-full opacity-25"
+             style={{ background: "radial-gradient(circle, #EF773A 0%, transparent 70%)" }} />
+        <div className="absolute inset-0 opacity-[0.04]"
+             style={{
+               backgroundImage: "linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)",
+               backgroundSize: "40px 40px",
+             }} />
+        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#EF773A] to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#384E8E] to-transparent" />
+
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
             {[
               { n: "200+", label: "Valued Clients" },
-              { n: "14+", label: "Countries Served" },
-              { n: "35+", label: "Years of Trust" },
-              { n: "98%", label: "Client Retention" },
+              { n: "14+",  label: "Countries Served" },
+              { n: "35+",  label: "Years of Trust" },
+              { n: "98%",  label: "Client Retention" },
             ].map((s) => (
-              <div key={s.label}>
-                <div className="text-4xl font-bold text-white mb-1">{s.n}</div>
-                <div className="text-[#B1DAEB] text-sm font-medium">{s.label}</div>
+              <div key={s.label} className="group">
+                <div className="inline-block mb-3 px-4 py-3 rounded-xl bg-white/5 border border-white/10 group-hover:border-[#EF773A]/40 transition-colors duration-300">
+                  <div className="text-4xl font-extrabold text-white">{s.n}</div>
+                </div>
+                <div className="text-[#B1DAEB] text-sm font-medium uppercase tracking-wider">{s.label}</div>
               </div>
             ))}
           </div>

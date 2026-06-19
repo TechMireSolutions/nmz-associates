@@ -54,6 +54,25 @@ body {
   animation: countUp 0.6s ease-out forwards;
 }
 
+/* Stats section — animated orbs */
+@keyframes orb1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33%       { transform: translate(40px, -30px) scale(1.15); }
+  66%       { transform: translate(-25px, 20px) scale(0.9); }
+}
+@keyframes orb2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33%       { transform: translate(-35px, 25px) scale(0.92); }
+  66%       { transform: translate(30px, -20px) scale(1.12); }
+}
+@keyframes orb3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50%       { transform: translate(20px, 30px) scale(1.08); }
+}
+.stats-orb-1 { animation: orb1 12s ease-in-out infinite; }
+.stats-orb-2 { animation: orb2 16s ease-in-out infinite; }
+.stats-orb-3 { animation: orb3 10s ease-in-out infinite; }
+
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
