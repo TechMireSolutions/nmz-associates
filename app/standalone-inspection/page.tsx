@@ -155,7 +155,7 @@ export default function StandaloneInspectionPage() {
               <p className="text-[#B1DAEB] leading-relaxed mb-6">
                 With over 35 years of experience in the textile and apparel industry, our inspection
                 teams are experts in detecting defects, verifying specifications, and ensuring
-                compliance — so you never have to wonder about the quality of what you're receiving.
+                compliance — so you never have to wonder about the quality of what you&apos;re receiving.
               </p>
               <Link
                 href="/contact"
