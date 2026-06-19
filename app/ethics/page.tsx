@@ -68,6 +68,7 @@ export default function EthicsPage() {
       <PageHeader
         title="Ethics & Sustainability"
         subtitle="We believe that responsible business is good business. Our ethical commitments are woven into every decision we make."
+        bgImage="/images/2.webp"
         breadcrumb="Our Values"
       />
 

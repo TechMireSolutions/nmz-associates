@@ -21,6 +21,7 @@ export default function AboutUsPage() {
       <PageHeader
         title="About Us"
         subtitle="We are a global sourcing partner for the apparel and textile industry, built on expertise, ethics, and excellence."
+        bgImage="/images/3.webp"
         breadcrumb="NMZ Associates"
       />
 

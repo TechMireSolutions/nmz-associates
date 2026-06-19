@@ -172,7 +172,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
   return (
     <>
-      <PageHeader title={article.category} subtitle={article.title} />
+      <PageHeader title={article.category} subtitle={article.title} bgImage={article.image} />
 
       <article className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">

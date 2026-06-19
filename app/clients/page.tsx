@@ -20,6 +20,7 @@ export default function ClientsPage() {
       <PageHeader
         title="Our Clients"
         subtitle="We proudly partner with leading brands and retailers from all around the world."
+        bgImage="/images/7.jpeg"
         breadcrumb="Partners"
       />
 

@@ -23,6 +23,7 @@ export default function ContactPage() {
       <PageHeader
         title="Contact Us"
         subtitle="We'd love to hear from you. Reach out to discuss your sourcing needs or simply get to know us better."
+        bgImage="/images/6.webp"
         breadcrumb="Get in Touch"
       />
 

@@ -23,6 +23,7 @@ export default function ShowroomPage() {
       <PageHeader
         title="Our Showroom"
         subtitle="Explore our latest product developments across the full spectrum of apparel and textile categories."
+        bgImage="/images/4.webp"
         breadcrumb="Showroom"
       />
 

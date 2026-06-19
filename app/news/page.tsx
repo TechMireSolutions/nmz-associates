@@ -71,6 +71,7 @@ export default function NewsPage() {
       <PageHeader
         title="News & Insights"
         subtitle="Stay up to date with industry trends, sourcing insights, and company updates from NMZ Associates."
+        bgImage="/images/t-1.webp"
         breadcrumb="Blog"
       />
 

@@ -51,6 +51,7 @@ export default function ServicesPage() {
       <PageHeader
         title="Our Services"
         subtitle="Comprehensive solutions for your apparel and textile sourcing needs — from raw materials to finished goods and everything in between."
+        bgImage="/images/8.webp"
         breadcrumb="What We Offer"
       />
 
