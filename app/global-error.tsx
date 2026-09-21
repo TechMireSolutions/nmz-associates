@@ -15,8 +15,8 @@ export default function GlobalError({
           <h1 className="text-2xl font-bold text-gray-800 mb-3">Critical Error</h1>
           <p className="text-gray-600 mb-8">
             A critical error occurred. Please refresh the page or contact us at{" "}
-            <a href="mailto:info@nmzassociates.com" className="text-blue-600 underline">
-              info@nmzassociates.com
+            <a href="mailto:info@appareltextileservices.com" className="text-blue-600 underline">
+              info@appareltextileservices.com
             </a>
           </p>
           <button

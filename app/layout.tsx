@@ -95,8 +95,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${poppins.variable} scroll-smooth`} data-scroll-behavior="smooth">
-      <body className="min-h-screen flex flex-col font-[var(--font-poppins)] antialiased">
+    <html lang="en" className={`${poppins.variable} scroll-smooth`} data-scroll-behavior="smooth" suppressHydrationWarning>
+      <body className="min-h-screen flex flex-col font-[var(--font-poppins)] antialiased" suppressHydrationWarning>
         {/* Skip to main content – keyboard accessibility */}
         <a
           href="#main-content"

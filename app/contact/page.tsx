@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 const offices = [
   { country: "Spain",    flag: "🇪🇸", address: "Barcelona, Spain",   email: "spain@nmzassociates.com" },
-  { country: "Pakistan", flag: "🇵🇰", address: "Lahore, Pakistan",    email: "info@nmzassociates.com" },
+  { country: "Pakistan", flag: "🇵🇰", address: "Lahore, Pakistan",    email: "info@appareltextileservices.com" },
   { country: "India",    flag: "🇮🇳", address: "New Delhi, India",    email: "india@nmzassociates.com" },
   { country: "China",    flag: "🇨🇳", address: "Shanghai, China",     email: "china@nmzassociates.com" },
   { country: "USA",      flag: "🇺🇸", address: "New York, USA",       email: "usa@nmzassociates.com" },
@@ -51,8 +51,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="font-semibold text-[#464646]">Email</div>
-                    <a href="mailto:info@nmzassociates.com" className="text-[#384E8E] hover:text-[#EF773A] transition-colors">
-                      info@nmzassociates.com
+                    <a href="mailto:info@appareltextileservices.com" className="text-[#384E8E] hover:text-[#EF773A] transition-colors">
+                      info@appareltextileservices.com
                     </a>
                   </div>
                 </div>

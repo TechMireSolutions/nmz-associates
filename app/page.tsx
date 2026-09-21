@@ -23,7 +23,7 @@ const jsonLd = {
   logo: "https://nmzassociates.com/images/nmz-logo.webp",
   description:
     "Global apparel and textile sourcing company with 35+ years of experience. Quality control, garment sourcing, and supply chain management worldwide.",
-  email: "info@nmzassociates.com",
+  email: "info@appareltextileservices.com",
   sameAs: [
     "https://www.instagram.com/nmzassociates",
     "https://www.facebook.com/nmzassociates",
