@@ -18,7 +18,6 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
-  output: "export",
   // Remove the X-Powered-By header
   poweredByHeader: false,
   // Enable gzip/brotli compression
