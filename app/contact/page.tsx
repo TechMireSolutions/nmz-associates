@@ -9,12 +9,12 @@ export const metadata: Metadata = {
 };
 
 const offices = [
-  { country: "Spain",    flag: "🇪🇸", address: "Barcelona, Spain",   email: "spain@nmzassociates.com" },
+  { country: "Spain",    flag: "🇪🇸", address: "Barcelona, Spain",   email: "spain@appareltextileservices.com" },
   { country: "Pakistan", flag: "🇵🇰", address: "Lahore, Pakistan",    email: "info@appareltextileservices.com" },
-  { country: "India",    flag: "🇮🇳", address: "New Delhi, India",    email: "india@nmzassociates.com" },
-  { country: "China",    flag: "🇨🇳", address: "Shanghai, China",     email: "china@nmzassociates.com" },
-  { country: "USA",      flag: "🇺🇸", address: "New York, USA",       email: "usa@nmzassociates.com" },
-  { country: "Canada",   flag: "🇨🇦", address: "Toronto, Canada",     email: "canada@nmzassociates.com" },
+  { country: "India",    flag: "🇮🇳", address: "New Delhi, India",    email: "india@appareltextileservices.com" },
+  { country: "China",    flag: "🇨🇳", address: "Shanghai, China",     email: "china@appareltextileservices.com" },
+  { country: "USA",      flag: "🇺🇸", address: "New York, USA",       email: "usa@appareltextileservices.com" },
+  { country: "Canada",   flag: "🇨🇦", address: "Toronto, Canada",     email: "canada@appareltextileservices.com" },
 ];
 
 export default function ContactPage() {
