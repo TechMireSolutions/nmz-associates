@@ -22,21 +22,24 @@ export default function ClientsSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-7 gap-4">
-          {clientLogoNums.map((n) => (
-            <div
-              key={n}
-              className="relative bg-white rounded-lg aspect-square shadow-sm hover:shadow-md transition-shadow overflow-hidden"
-            >
-              <Image
-                src={imgSrc(n)}
-                alt={`Client logo ${n}`}
-                fill
-                sizes="(max-width: 640px) 25vw, (max-width: 768px) 16.6vw, 14vw"
-                className="object-contain p-3"
-              />
-            </div>
-          ))}
+        {/* Infinite Loop Slider - Single Consistent White Strip */}
+        <div className="relative w-full bg-white py-6 sm:py-8 rounded-2xl shadow-sm border border-gray-100 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)]">
+          <div className="flex items-center gap-12 sm:gap-16 animate-marquee">
+            {[...clientLogoNums, ...clientLogoNums].map((n, idx) => (
+              <div
+                key={`${n}-${idx}`}
+                className="w-32 h-16 sm:w-40 sm:h-20 flex-shrink-0 relative flex items-center justify-center transition-transform duration-300 hover:scale-105"
+              >
+                <Image
+                  src={imgSrc(n)}
+                  alt={`Client logo ${n}`}
+                  fill
+                  sizes="(max-width: 640px) 128px, 160px"
+                  className="object-contain"
+                />
+              </div>
+            ))}
+          </div>
         </div>
 
         <div className="mt-16 text-center">
