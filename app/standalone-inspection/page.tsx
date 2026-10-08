@@ -117,6 +117,42 @@ export default function StandaloneInspectionPage() {
         </div>
       </section>
 
+      {/* Standalone Sample Inspection Reports */}
+      <section className="py-16 bg-[#384E8E]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-white mb-4">Standalone Sample Inspection Reports</h2>
+          <p className="text-[#B1DAEB] max-w-2xl mx-auto mb-8">
+            Review our sample standalone inspection reports to see the comprehensive quality verification and defect analysis we deliver.
+          </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <a
+              href="/reports/Waseem%20final%20inspection%20spark-1.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-[#384E8E] px-6 py-3 rounded font-semibold hover:bg-[#B1DAEB] transition-colors text-sm shadow-sm flex items-center gap-2"
+            >
+              📄 Final Inspection - Spark (PDF 1)
+            </a>
+            <a
+              href="/reports/final%20inspection%20AB0130-PK121520-S11035%20-%20FAIL.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-[#384E8E] px-6 py-3 rounded font-semibold hover:bg-[#B1DAEB] transition-colors text-sm shadow-sm flex items-center gap-2"
+            >
+              📄 Final Inspection - Case Study Fail (PDF 2)
+            </a>
+            <a
+              href="/reports/final%20remarks%20on%20final%20inspection.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-[#384E8E] px-6 py-3 rounded font-semibold hover:bg-[#B1DAEB] transition-colors text-sm shadow-sm flex items-center gap-2"
+            >
+              📄 Final Remarks on Final Inspection (PDF 3)
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Process */}
       <section className="py-20 bg-[#EBEBEB]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -178,41 +214,6 @@ export default function StandaloneInspectionPage() {
         </div>
       </section>
 
-      {/* Standalone Sample Inspection Reports */}
-      <section className="py-16 bg-[#2d3f72] border-t border-white/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">Standalone Sample Inspection Reports</h2>
-          <p className="text-[#B1DAEB] max-w-2xl mx-auto mb-8">
-            Review our sample standalone inspection reports to see the comprehensive quality verification and defect analysis we deliver.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <a
-              href="/reports/Waseem%20final%20inspection%20spark-1.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white text-[#384E8E] px-6 py-3 rounded font-semibold hover:bg-[#B1DAEB] transition-colors text-sm shadow-sm flex items-center gap-2"
-            >
-              📄 Final Inspection - Spark (PDF 1)
-            </a>
-            <a
-              href="/reports/final%20inspection%20AB0130-PK121520-S11035%20-%20FAIL.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white text-[#384E8E] px-6 py-3 rounded font-semibold hover:bg-[#B1DAEB] transition-colors text-sm shadow-sm flex items-center gap-2"
-            >
-              📄 Final Inspection - Case Study Fail (PDF 2)
-            </a>
-            <a
-              href="/reports/final%20remarks%20on%20final%20inspection.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white text-[#384E8E] px-6 py-3 rounded font-semibold hover:bg-[#B1DAEB] transition-colors text-sm shadow-sm flex items-center gap-2"
-            >
-              📄 Final Remarks on Final Inspection (PDF 3)
-            </a>
-          </div>
-        </div>
-      </section>
     </>
   );
 }
