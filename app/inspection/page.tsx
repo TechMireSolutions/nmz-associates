@@ -93,11 +93,37 @@ export default function InspectionPage() {
             Review our sample inspection reports to understand the detail and transparency we bring to every assignment.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="#" className="bg-white text-[#384E8E] px-6 py-3 rounded font-semibold hover:bg-[#B1DAEB] transition-colors text-sm">
-              📄 Final Inspection Report Sample
+            <a
+              href="/reports/Final%20Inspection%20Report%20Apron.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-[#384E8E] px-6 py-3 rounded font-semibold hover:bg-[#B1DAEB] transition-colors text-sm shadow-sm flex items-center gap-2"
+            >
+              📄 Final Inspection Report - Apron (PDF 1)
             </a>
-            <a href="#" className="bg-white text-[#384E8E] px-6 py-3 rounded font-semibold hover:bg-[#B1DAEB] transition-colors text-sm">
-              📄 Lab Testing Report Sample
+            <a
+              href="/reports/Final%20Inspection%20Report%20carpenter.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-[#384E8E] px-6 py-3 rounded font-semibold hover:bg-[#B1DAEB] transition-colors text-sm shadow-sm flex items-center gap-2"
+            >
+              📄 Final Inspection Report - Carpenter (PDF 2)
+            </a>
+            <a
+              href="/reports/INSPECTION%20REPORT%20BAGS.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-[#384E8E] px-6 py-3 rounded font-semibold hover:bg-[#B1DAEB] transition-colors text-sm shadow-sm flex items-center gap-2"
+            >
+              📄 Inspection Report - Bags (PDF 3)
+            </a>
+            <a
+              href="/reports/Lucky%20Textile%20Gown%202%20inspection%20report.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-[#384E8E] px-6 py-3 rounded font-semibold hover:bg-[#B1DAEB] transition-colors text-sm shadow-sm flex items-center gap-2"
+            >
+              📄 Inspection Report - Gown (PDF 4)
             </a>
           </div>
         </div>
